@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɴᴀɪɴᴀ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ιккυダмυѕιc​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1962673406").split())
+    map(int, getenv("OWNER_ID", "1890206319").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,16 +36,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NAINA-XD/NAINA-MUSICX",
+    "https://github.com/",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/OYE_GOLGAPPU")
+    "SUPPORT_CHANNEL", "https://t.me/ikku_hoi")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/LOBE_JU")
+    "SUPPORT_GROUP", "https://t.me/sidekickfriend")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NAINA-XD/NAINA-MUSICX")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a5fa69ce452590eb3c771.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/6abbc675ced4e45254464.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/a5fa69ce452590eb3c771.jpg",
+    "https://te.legra.ph/file/6abbc675ced4e45254464.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
