@@ -65,7 +65,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "1356469075",
+        "value": "1890206319",
         "required": true
       },
       "STRING_SESSION": {
@@ -100,12 +100,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
-        "value": "https://t.me/terayaarhoomai",
+        "value": "https://t.me/sidekickfriend",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Link of your telegram channel.",
-        "value": "https://t.me/official_lucky01",
+        "value": "https://t.me/ikku_hoi",
         "required": false
       }
     },
