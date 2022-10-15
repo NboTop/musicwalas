@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "10577960"))
-API_HASH = getenv("API_HASH", "80fd047285f4e94ca80311928b6bb5da")
+API_ID = int(getenv("API_ID", "19588819"))
+API_HASH = getenv("API_HASH", "e8e174181134c5991f20cc6bf9f55bf1")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5787903173:AAF5EVig6ATTRLaJo2l3sDSp32WZ7sdqXJ0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicwala:musicwalala@cluster0.svyk5ce.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "900")
@@ -22,7 +22,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001851312811"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ιккυダмυѕιc​")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NboTop/SOVEREIGN-MUSICX")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NboTop/musicwalas")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", " AQCzZOpzfM6nN6AcnOISv1Pa2PyOKfOJkYbqsJ7bCK3t-S_d-JNKGOrwnWcW2xCcqmzFrn3-BfkRAtsYxcLTLJQbz1-eWwG4U_34Vj1aB4g73J3keSypuuvB1DfmYKcYaiI3JxQpbu5DqbmEqmsNU5wBwCqWRTXKsa8TSeUn9QrCb07al-5_dciWstMWeHkNNozlgd4UchNRTVnaF0iES-GelIlTNyN4gTOb7IgrHOYCCQmxYuWq1ZGnFW37Ds8S9jyu42YOh93UARUY3fVNG8ePWa3dGw0SxLPJ-lSqA_dvExpYdveOn6Qe6ji31bOA9ZsEoKPIGLGCpeU88uePxRAAAAAUBH-IgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -107,7 +107,7 @@ START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/6abbc675ced4e4
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/6abbc675ced4e45254464.jpg",
+    "https://te.legra.ph/file/dd943dd5f2266887b1781.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
