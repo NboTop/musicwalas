@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "19588819"))
 API_HASH = getenv("API_HASH", "e8e174181134c5991f20cc6bf9f55bf1")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5787903173:AAF5EVig6ATTRLaJo2l3sDSp32WZ7sdqXJ0")
+BOT_TOKEN = getenv("BOT_TOKEN", "5770593765:AAGalgSHUdwT4mt0mId2WbMc-8kFt9jJiMA")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicwala:musicwalala@cluster0.svyk5ce.mongodb.net/?retryWrites=true&w=majority")
 
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001851312811"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-903446609"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ιккυダмυѕιc​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1890206319").split())
+    map(int, getenv("OWNER_ID", "5148167075").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/",
+    "https://t.me//ikku_lmao",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NboTop/musicwalas")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me//ikku_lmao")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", " AQCzZOpzfM6nN6AcnOISv1Pa2PyOKfOJkYbqsJ7bCK3t-S_d-JNKGOrwnWcW2xCcqmzFrn3-BfkRAtsYxcLTLJQbz1-eWwG4U_34Vj1aB4g73J3keSypuuvB1DfmYKcYaiI3JxQpbu5DqbmEqmsNU5wBwCqWRTXKsa8TSeUn9QrCb07al-5_dciWstMWeHkNNozlgd4UchNRTVnaF0iES-GelIlTNyN4gTOb7IgrHOYCCQmxYuWq1ZGnFW37Ds8S9jyu42YOh93UARUY3fVNG8ePWa3dGw0SxLPJ-lSqA_dvExpYdveOn6Qe6ji31bOA9ZsEoKPIGLGCpeU88uePxRAAAAAUBH-IgA")
+STRING1 = getenv("STRING_SESSION", "1AZWarzYBu7Tlj10Seei1Bg3XrpK6AW7IiSybBe9iqc2jpOzDLzVPu1xFxy08jyWGgftEvuFpdfISqtbV0nU-7mJv3G22RT13zPxadecUSDj_TYkvYTWPwFsyLFo4kdX6VWRlmhZr-kM3xHwjpzpry5wYPCNgdnKsaO7oa7Yv9984qeY0t1FOovOqqjV01L5RudEbHM645mFBtOku8yniHOKLRGiVoKtYM9YM0fR1ArOrFVNXKWbhjwU6oqhyveoywCcv9pyrnb2RliOl-dNUqgufFlYeytMQYm_Hnzbbu7nrUZy_BiqLiZQxb0cDlyZ3isVpIXQsN3ALYpI0Gm8WWImKOPTIvss=")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -266,5 +266,5 @@ if TELEGRAM_VIDEO_URL:
 
 if not MUSIC_BOT_NAME.isascii():
     print(
-        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR LUCKY KO APNI CHUMT DEKE AA"
+        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR IKKU KO APNI CHUMT DEKE AA"
     )
